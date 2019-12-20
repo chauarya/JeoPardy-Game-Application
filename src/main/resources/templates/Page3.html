@@ -1,0 +1,45 @@
+<html lang="en" xmlns:th="Http://www.thymeleaf.org">
+<head>
+<title>Page3</title>
+<link rel="stylesheet" type="text/css" media="all"
+ href="../static/css/Assi1.css"
+ th:href="@{/css/Assi1.css}" />
+
+</head>
+
+<body class="b3">
+<center>
+<pre class="p3"><span th:text="'Category:'+ ${session.Qe.catagory}"></span>    <span th:text="'Value:'+${session.Qe.value}"></span>                            <span th:text="'Score:'+${session.Player.score}"></span> </pre>
+<div class="Last">
+ 
+<h3><span th:text="${session.Qe.question}"></span></h3>
+
+<form action="answerQuestion" method="get">
+ 
+<input type="hidden" name="select" th:value="${session.Qe.answer1}"/>
+A:<input type="submit" id="btn4" th:value="${session.Qe.answer1}"></form>
+<form action="answerQuestion" method="get">
+ 
+<input type="hidden" name="select" th:value="${session.Qe.answer2}"/>
+B:<input type="submit"  id="btn4" th:value="${session.Qe.answer2}"></form> 
+<form action="answerQuestion" method="get">
+ 
+<input type="hidden" name="select" th:value="${session.Qe.answer3}"/>
+C:<input type="submit" id="btn4" th:value="${session.Qe.answer3}"></form>  
+<form action="answerQuestion" method="get">
+ 
+<input type="hidden" name="select" th:value="${session.Qe.answer4}"/>
+D:<input type="submit" id="btn4" th:value="${session.Qe.answer4}"></form><br><br><br><br>
+</div>
+
+<form action="GGB" method="get">
+ <input type="submit" id="btn5" value="Game Bord"></form>
+ <form action="logOut" mehtod="get">
+ <input type="submit" id="btn5" value="Log out"></form>
+
+</center>
+
+
+
+</body>
+</html>

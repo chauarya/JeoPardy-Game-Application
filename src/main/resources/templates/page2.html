@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="Http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome Page</title>
+<link rel="stylesheet" type="text/css" media="all"
+ href="../static/css/Assi1.css"
+ th:href="@{/css/Assi1.css}" />
+</head>
+<body class="b2" >
+<pre class="p1" ><span th:text="'Welcome '+${session.Player.name}"></span>                                                          <span th:text="'Score:'+${session.Player.score}"></span> </pre>
+ 
+ 
+  
+<div class="div11">
+ 
+<h3 class="mb">Movies</h3><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Movies'"/>
+<input type="hidden" name="value" value="100"/>
+<input class="btn" type="submit" value="100"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Movies'"/>
+<input type="hidden" name="value" value="200"/>
+<input class="btn" type="submit" name="value" value="200"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Movies'"/>
+<input type="hidden" name="value" value="300"/>
+<input class="btn" type="submit" name="value" value="300"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Movies'"/>
+<input type="hidden" name="value" value="400"/>
+<input class="btn" type="submit" name="value" value="400"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Movies'"/>
+<input type="hidden" name="value" value="500"/>
+<input class="btn" type="submit" name="value" value="500"></form><br><br><br><br>
+ 
+</div>
+ 
+<div class="div12">
+<h3 class="mb">Sports</h3><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Sports'"/>
+<input type="hidden" name="value" value="100"/>
+<input class="btn" type="submit" value="100"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Sports'"/>
+<input type="hidden" name="value" value="200"/>
+<input class="btn" type="submit" value="200"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Sports'"/>
+<input type="hidden" name="value" value="300"/>
+<input class="btn" type="submit" value="300"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Sports'"/>
+<input type="hidden" name="value" value="400"/>
+<input class="btn" type="submit" value="400"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Sports'"/>
+<input type="hidden" name="value" value="500"/>
+<input class="btn" type="submit" value="500"></form><br><br><br><br>
+</div>
+
+<div class="div13">
+<h3 class="mb">Music</h3><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Music'"/>
+<input type="hidden" name="value" value="100"/>
+<input class="btn" type="submit" value="100"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Music'"/>
+<input type="hidden" name="value" value="200"/>
+<input class="btn" type="submit" value="200"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Music'"/>
+<input type="hidden" name="value" value="300"/>
+<input class="btn" type="submit" value="300"></form> <br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Music'"/>
+<input type="hidden" name="value" value="400"/>
+<input class="btn" type="submit" value="400"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Music'"/>
+<input type="hidden" name="value" value="500"/>
+<input class="btn" type="submit" value="500"></form><br><br><br><br>
+</div>
+
+<div class="div14">
+<h3 class="mb">Games</h3><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Games'"/>
+<input type="hidden" name="value" value="100"/>
+<input class="btn" type="submit" value="100"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Games'"/>
+<input type="hidden" name="value" value="200"/>
+<input class="btn" type="submit" value="200"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Games'"/>
+<input type="hidden" name="value" value="300"/>
+<input class="btn" type="submit" value="300"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Games'"/>
+<input type="hidden" name="value" value="400"/>
+<input class="btn" type="submit" value="400"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Games'"/>
+<input type="hidden" name="value" value="500"/>
+<input class="btn" type="submit" value="500"></form><br><br><br><br>
+</div>
+
+<div class="div15">
+<h3 class="mb">Holiday</h3><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Holiday'"/>
+<input type="hidden" name="value" value="100"/>
+<input class="btn" type="submit" value="100"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Holiday'"/>
+<input type="hidden" name="value" value="200"/>
+<input class="btn" type="submit" value="200"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Holiday'"/>
+<input type="hidden" name="value" value="300"/>
+<input class="btn" type="submit" value="300"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Holiday'"/>
+<input type="hidden" name="value" value="400"/>
+<input class="btn" type="submit" value="400"></form><br><br><br><br>
+<form action="pq" method="Get">
+<input type="hidden" name="catagory" value="'Holiday'"/>
+<input type="hidden" name="value" value="500"/>
+<input class="btn" type="submit" value="500"></form><br><br><br><br>
+</div>
+ 
+<body>
+</html>
